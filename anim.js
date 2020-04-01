@@ -1,4 +1,6 @@
-  $(document).ready(function() {
+
+
+$(document).ready(function() {
 			$("#Salad").click(function() {
 				$("#Salad")if (clicked == false) {
       $(".box").animate({
@@ -49,3 +51,4 @@
       $("img").animate({
         transform: rotate(0.5turn);
       });
+				});
