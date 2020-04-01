@@ -47,14 +47,22 @@ $(document).ready(function() {
 
     $(document).ready(function() {
 			$("#Salad").keypress(function(event) {
-        if (event.which >= 97 && e.which <= 122) {
+        if (event.which = 49) {
       $("img").animate({
         transform: rotate(0.5turn);
       });
 
 
    $(document).ready(function() {
-			$("#Burger").keypress(function() {
+			$("#Burger").keypress(function(event) {
+        if (event.which = 50)
+      $("img").animate({
+        transform: rotate(0.5turn);
+      });
+
+    $(document).ready(function() {
+			$("#Burger").keypress(function(event) {
+        if (event.which = 51)
       $("img").animate({
         transform: rotate(0.5turn);
       });
