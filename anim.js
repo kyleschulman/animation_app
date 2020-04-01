@@ -46,9 +46,15 @@ $(document).ready(function() {
 
 
     $(document).ready(function() {
-			$("#Salad").keypress(function() {
-				$("#Salad")if (clicked == false) {
+			$("#Salad").keypress(function(event) {
+        if (event.which >= 97 && e.which <= 122) {
       $("img").animate({
         transform: rotate(0.5turn);
       });
-				});
+
+
+   $(document).ready(function() {
+			$("#Burger").keypress(function() {
+      $("img").animate({
+        transform: rotate(0.5turn);
+      });
