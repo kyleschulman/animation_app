@@ -1,13 +1,21 @@
 
-
-$(document).ready(function() {
-			$("#Salad").click(function() {
-				$("#Salad")if (clicked == false) {
-      $(".box").animate({
-        width: "300px",
-        height: "300px",
-        marginLeft: "150px",
-        borderWidth: "10px",
-        opacity: 0.5
-      });
-				});
+$(document).ready(function () {
+$("Salad").click(function () {
+	$(".salad")
+			.animate({
+				width: "200px"
+			})
+			.animate({
+				height: "200px"
+			})
+			.animate({
+				marginLeft: "150px"
+			})
+			.animate({
+				borderWidth: "10px"
+			})
+			.animate({
+				opacity: 0.5
+			});
+	});
+});
