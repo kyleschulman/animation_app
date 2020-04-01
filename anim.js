@@ -1,5 +1,5 @@
 
-<<<<<<< HEAD
+
 $(document).ready(function () {
 $("Salad").click(function () {
 	$(".salad")
@@ -20,7 +20,7 @@ $("Salad").click(function () {
 			});
 	});
 });
-=======
+
 
 $(document).ready(function() {
 			$("#Salad").click(function() {
@@ -88,4 +88,3 @@ $(document).ready(function() {
       $("img").animate({
         transform: rotate(0.5turn);
       });
->>>>>>> master/master
