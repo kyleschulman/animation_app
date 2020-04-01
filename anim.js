@@ -1,4 +1,6 @@
-  $(document).ready(function() {
+
+
+$(document).ready(function() {
 			$("#Salad").click(function() {
 				$("#Salad")if (clicked == false) {
       $(".box").animate({
@@ -8,3 +10,4 @@
         borderWidth: "10px",
         opacity: 0.5
       });
+				});
