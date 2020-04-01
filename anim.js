@@ -69,7 +69,7 @@ $(document).ready(function() {
 
     $(document).ready(function() {
 			$("#Salad").keypress(function(event) {
-        if (event.which = 49) {
+        if (event.which = 49) { //press key 1
       $("img").animate({
         transform: rotate(0.5turn);
       });
@@ -77,14 +77,14 @@ $(document).ready(function() {
 
    $(document).ready(function() {
 			$("#Burger").keypress(function(event) {
-        if (event.which = 50)
+        if (event.which = 50) //press key 2
       $("img").animate({
         transform: rotate(0.5turn);
       });
 
     $(document).ready(function() {
 			$("#Burger").keypress(function(event) {
-        if (event.which = 51)
+        if (event.which = 51) //press key 3
       $("img").animate({
         transform: rotate(0.5turn);
       });
