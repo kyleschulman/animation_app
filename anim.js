@@ -6,5 +6,46 @@
         height: "300px",
         marginLeft: "150px",
         borderWidth: "10px",
-        opacity: 0.5
+
+      });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    $(document).ready(function() {
+			$("#Salad").keypress(function() {
+				$("#Salad")if (clicked == false) {
+      $("img").animate({
+        transform: rotate(0.5turn);
       });
