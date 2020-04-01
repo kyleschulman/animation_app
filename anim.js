@@ -73,6 +73,7 @@ $(document).ready(function() {
       $("img").animate({
         transform: rotate(0.5turn);
       });
+		});
 
 
    $(document).ready(function() {
