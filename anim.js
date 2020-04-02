@@ -1,3 +1,33 @@
+$(document).ready(function () {
+		$("#Salad").keypress(function(event) {
+        if (event.which = 49) { //press key 1
+      $("#salad").animate({
+        transform: rotate(0.5turn);
+      });
+		};
+			};
+							 )};
+
+			$("#Burger").keypress(function(event) {
+        if (event.which = 50) //press key 2
+      $("#burger").animate({
+        transform: rotate(0.5turn);
+      });
+			});
+
+
+			$("#Wings").keypress(function(event) {
+        if (event.which = 51) //press key 3
+      $("#wings").animate({
+        transform: rotate(0.5turn);
+      });
+			});
+
+
+
+
+
+
 
 
 $(document).ready(function () {

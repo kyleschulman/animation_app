@@ -1,12 +1,16 @@
 <html>
 <head> <link rel="stylesheet" href="anim.css"></head>
 <body>
+	<h2>Menu</h2>
+	<h4>Salad</h4>
 <div id='Salad' class='image'>
 	<img id="salad" src="https://i2.wp.com/wellplated.com/wp-content/uploads/2019/08/Avocado-and-Tomato-Salad-with-Lime.jpg">
 	</div>
+	<h4>Burger</h4>
 	<div id='Burger' class='image'>
 		<img id= "burger" src="https://media-cdn.tripadvisor.com/media/photo-s/17/ba/a6/31/burger.jpg">
 	</div>
+	<h4>Wings</h4>
 	<div id='Wings' class='image'>
 	<img id= "wings" src="https://www.thespruceeats.com/thmb/sEpFP5i3XgXEdHM_LS_JSV5BcXI=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/instant-pot-buffalo-wings-4773375-hero-e82d636c887943a0aa87b92106aa4789.jpg">
 	</div>
@@ -14,38 +18,60 @@
 
 	<script>
 $(document).ready(function () {
-$("#Salad").click(function () {
+$("#salad").mouseenter(function () { //move mouse over img
 	$("#salad")
-.animate({ width: "200px" })
-      .animate({ height: "200px" })
-      .animate({ marginLeft: "150px" })
-      .animate({ borderWidth: "10px" })
-      .animate({ opacity: 0.5 });
+	  .animate({ marginLeft: "300px" })
+      .animate({ width: "240px" })
+      .animate({ height: "335px" })
   });
+	$("#Salad").mouseleave(function () { //mouse leaves anywhere on div
+	$("#salad")
+	  .animate({ marginLeft: "0px" })
+      .animate({ width: "200px" })
+      .animate({ height: "279.166666667" })
+     });
+
+
+	$("#wings").mouseenter(function () { //move mouse over img
+	$("#wings")
+	  .animate({ marginLeft: "300px" })
+      .animate({ width: "240px" })
+      .animate({ height: "335px" })
+  });
+	$("#Wings").mouseleave(function () { //mouse leaves anywhere on div
+	$("#wings")
+	  .animate({ marginLeft: "0px" })
+      .animate({ width: "200px" })
+      .animate({ height: "279.166666667" })
+     });
+
+
+	$("#burger").mouseenter(function () { //move mouse over img
+	$("#burger")
+	  .animate({ marginLeft: "300px" })
+      .animate({ width: "240px" })
+      .animate({ height: "335px" })
+  });
+	$("#Burger").mouseleave(function () { //mouse leaves anywhere on div
+	$("#burger")
+	  .animate({ marginLeft: "0px" })
+      .animate({ width: "200px" })
+      .animate({ height: "279.166666667" })
+     });
+
+
+
+
+
+
+
+
+
 });
 
-         $(document).ready(function() {
-			$("#Salad").keypress(function(event) {
-        if (event.which = 49) { //press key 1
-      $("img").animate({
-        transform: rotate(0.5turn);
-      });
-		});
 
 
-   $(document).ready(function() {
-			$("#Burger").keypress(function(event) {
-        if (event.which = 50) //press key 2
-      $("img").animate({
-        transform: rotate(0.5turn);
-      });
 
-    $(document).ready(function() {
-			$("#Wings").keypress(function(event) {
-        if (event.which = 51) //press key 3
-      $("img").animate({
-        transform: rotate(0.5turn);
-      });
 	</script>
 	<!--Site-specific JavaScript code using jQuery-->
 
