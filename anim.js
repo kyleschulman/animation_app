@@ -56,18 +56,7 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    $(document).ready(function() {
+ $(document).ready(function() {
 			$("#Salad").keypress(function(event) {
         if (event.which = 49) { //press key 1
       $("img").animate({
@@ -84,8 +73,19 @@ $(document).ready(function() {
       });
 
     $(document).ready(function() {
-			$("#Burger").keypress(function(event) {
+			$("#Wings").keypress(function(event) {
         if (event.which = 51) //press key 3
       $("img").animate({
         transform: rotate(0.5turn);
       });
+
+
+
+
+
+
+
+
+
+
+
