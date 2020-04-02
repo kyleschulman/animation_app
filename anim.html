@@ -1,7 +1,7 @@
 <html>
 <head> <link rel="stylesheet" href="anim.css"></head>
 <body>
-	<h2>Menu</h2>
+	<h2>Online Menu <input type="text" id="myText"></h2>
 	<h4>Salad</h4>
 <div id='Salad' class='image'>
 	<img id="salad" src="https://i2.wp.com/wellplated.com/wp-content/uploads/2019/08/Avocado-and-Tomato-Salad-with-Lime.jpg">
@@ -21,46 +21,41 @@ $(document).ready(function () {
 $("#salad").mouseenter(function () { //move mouse over img
 	$("#salad")
 	  .animate({ marginLeft: "300px" })
-      .animate({ width: "240px" })
-      .animate({ height: "335px" })
+      .animate({ width: "200px",height:"279.16667"})
+
   });
 	$("#Salad").mouseleave(function () { //mouse leaves anywhere on div
 	$("#salad")
 	  .animate({ marginLeft: "0px" })
-      .animate({ width: "200px" })
-      .animate({ height: "279.166666667" })
+      .animate({ width: "143.283px" })
+      .animate({ height: "200px" })
      });
-
-
-	$("#wings").mouseenter(function () { //move mouse over img
-	$("#wings")
-	  .animate({ marginLeft: "300px" })
-      .animate({ width: "240px" })
-      .animate({ height: "335px" })
-  });
-	$("#Wings").mouseleave(function () { //mouse leaves anywhere on div
-	$("#wings")
-	  .animate({ marginLeft: "0px" })
-      .animate({ width: "200px" })
-      .animate({ height: "279.166666667" })
-     });
-
 
 	$("#burger").mouseenter(function () { //move mouse over img
 	$("#burger")
 	  .animate({ marginLeft: "300px" })
-      .animate({ width: "240px" })
-      .animate({ height: "335px" })
+      .animate({ width: "366px" })
+      .animate({ height: "244px" })
   });
 	$("#Burger").mouseleave(function () { //mouse leaves anywhere on div
 	$("#burger")
 	  .animate({ marginLeft: "0px" })
-      .animate({ width: "200px" })
-      .animate({ height: "279.166666667" })
+      .animate({ width: "299.727px" })
+      .animate({ height: "200px" })
      });
 
-
-
+$("#wings").mouseenter(function () { //move mouse over img
+	$("#wings")
+	  .animate({ marginLeft: "300px" })
+      .animate({ width: "400px" })
+      .animate({ height: "266.6667px" })
+  });
+	$("#Wings").mouseleave(function () { //mouse leaves anywhere on div
+	$("#wings")
+	  .animate({ marginLeft: "0px" })
+      .animate({ width: "299.531px" })
+      .animate({ height: "200px" })
+     });
 
 
 

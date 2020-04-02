@@ -1,12 +1,9 @@
-$(document).ready(function () {
-		$("#Salad").keypress(function(event) {
+$("myText").keypress(function(event)) {
         if (event.which = 49) { //press key 1
-      $("#salad").animate({
-        transform: rotate(0.5turn);
-      });
+      $("#salad").animate({transform: rotate(0.5turn);});
 		};
 			};
-							 )};
+
 
 			$("#Burger").keypress(function(event) {
         if (event.which = 50) //press key 2
