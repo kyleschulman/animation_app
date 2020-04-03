@@ -1,79 +1,119 @@
 <html>
-<head> <link rel="stylesheet" href="anim.css"></head>
+
+<head>
+	<link rel="stylesheet" href="anim.css">
+</head>
+
 <body>
 	<h2>Online Menu </h2>
 	<h4>Salad</h4>
-<div id='Salad' class='image'>
-	<img id="salad" src="https://i2.wp.com/wellplated.com/wp-content/uploads/2019/08/Avocado-and-Tomato-Salad-with-Lime.jpg">
+	<div id='Salad' class='image'>
+		<img id="salad" src="https://i2.wp.com/wellplated.com/wp-content/uploads/2019/08/Avocado-and-Tomato-Salad-with-Lime.jpg">
 	</div>
 	<h4>Burger</h4>
 	<div id='Burger' class='image'>
-		<img id= "burger" src="https://media-cdn.tripadvisor.com/media/photo-s/17/ba/a6/31/burger.jpg">
+		<img id="burger" src="https://media-cdn.tripadvisor.com/media/photo-s/17/ba/a6/31/burger.jpg">
 	</div>
 	<h4>Wings</h4>
 	<div id='Wings' class='image'>
-	<img id= "wings" src="https://www.thespruceeats.com/thmb/sEpFP5i3XgXEdHM_LS_JSV5BcXI=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/instant-pot-buffalo-wings-4773375-hero-e82d636c887943a0aa87b92106aa4789.jpg">
+		<img id="wings" src="https://www.thespruceeats.com/thmb/sEpFP5i3XgXEdHM_LS_JSV5BcXI=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/instant-pot-buffalo-wings-4773375-hero-e82d636c887943a0aa87b92106aa4789.jpg">
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script>
-$(document).ready(function () {
-$("#salad").mouseenter(function () { //move mouse over img
-	$("#salad")
-	  .animate({ marginLeft: "300px" })
-      .animate({ width: "200px",height:"279.16667"})
-  });
-	$("#Salad").mouseleave(function () { //mouse leaves anywhere on div
-	$("#salad")
-	  .animate({ marginLeft: "0px" })
-      .animate({ width: "143.283px" })
-      .animate({ height: "200px" })
-     });
-	$("#burger").mouseenter(function () { //move mouse over img
-	$("#burger")
-	  .animate({ marginLeft: "300px" })
-      .animate({ width: "366px" })
-      .animate({ height: "244px" })
-  });
-	$("#Burger").mouseleave(function () { //mouse leaves anywhere on div
-	$("#burger")
-	  .animate({ marginLeft: "0px" })
-      .animate({ width: "299.727px" })
-      .animate({ height: "200px" })
-     });
-$("#wings").mouseenter(function () { //move mouse over img
-	$("#wings")
-	  .animate({ marginLeft: "300px" })
-      .animate({ width: "400px" })
-      .animate({ height: "266.6667px" })
-  });
-	$("#Wings").mouseleave(function () { //mouse leaves anywhere on div
-	$("#wings")
-	  .animate({ marginLeft: "0px" })
-      .animate({ width: "299.531px" })
-      .animate({ height: "200px" })
-     });
-  $(document).keydown(function (keyPressed) {
-        if (keyPressed.keyCode == 49) {
-            $("#salad").animate({
-                marginLeft: "550px"
-            }, 200);
-        }
-    });
- $(document).keydown(function (keyPressed) {
-        if (keyPressed.keyCode == 50) {
-            $("#burger").animate({
-                marginLeft: "550px"
-            }, 200);
-        }
-    });
-$(document).keydown(function (keyPressed) {
-        if (keyPressed.keyCode == 51) {
-            $("#wings").animate({
-                marginLeft: "550px"
-            }, 200);
-        }
-    });
-});
+		$(document).ready(function() {
+			$("#salad").mouseenter(function() { //move mouse over img
+				$("#salad")
+					.animate({
+						marginLeft: "300px"
+					})
+					.animate({
+						width: "200px",
+						height: "279.16667"
+					})
+			});
+			$("#Salad").mouseleave(function() { //mouse leaves anywhere on div
+				$("#salad")
+					.animate({
+						marginLeft: "0px"
+					})
+					.animate({
+						width: "143.283px"
+					})
+					.animate({
+						height: "200px"
+					})
+			});
+			$("#burger").mouseenter(function() { //move mouse over img
+				$("#burger")
+					.animate({
+						marginLeft: "300px"
+					})
+					.animate({
+						width: "366px"
+					})
+					.animate({
+						height: "244px"
+					})
+			});
+			$("#Burger").mouseleave(function() { //mouse leaves anywhere on div
+				$("#burger")
+					.animate({
+						marginLeft: "0px"
+					})
+					.animate({
+						width: "299.727px"
+					})
+					.animate({
+						height: "200px"
+					})
+			});
+			$("#wings").mouseenter(function() { //move mouse over img
+				$("#wings")
+					.animate({
+						marginLeft: "300px"
+					})
+					.animate({
+						width: "400px"
+					})
+					.animate({
+						height: "266.6667px"
+					})
+			});
+			$("#Wings").mouseleave(function() { //mouse leaves anywhere on div
+				$("#wings")
+					.animate({
+						marginLeft: "0px"
+					})
+					.animate({
+						width: "299.531px"
+					})
+					.animate({
+						height: "200px"
+					})
+			});
+			$(document).keydown(function(keyPressed) {
+				if (keyPressed.keyCode == 49) {
+					$("#salad").animate({
+						marginLeft: "550px"
+					}, 200);
+				}
+			});
+			$(document).keydown(function(keyPressed) {
+				if (keyPressed.keyCode == 50) {
+					$("#burger").animate({
+						marginLeft: "550px"
+					}, 200);
+				}
+			});
+			$(document).keydown(function(keyPressed) {
+				if (keyPressed.keyCode == 51) {
+					$("#wings").animate({
+						marginLeft: "550px"
+					}, 200);
+				}
+			});
+		});
+
 	</script>
 	<!--Site-specific JavaScript code using jQuery-->
 
