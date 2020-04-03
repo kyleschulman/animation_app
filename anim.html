@@ -6,15 +6,15 @@
 
 <body>
 	<h2>Online Menu </h2>
-	<h4>Salad</h4>
+	<h4>Salad (Press #1)</h4>
 	<div id='Salad' class='image'>
 		<img id="salad" src="https://i2.wp.com/wellplated.com/wp-content/uploads/2019/08/Avocado-and-Tomato-Salad-with-Lime.jpg">
 	</div>
-	<h4>Burger</h4>
+	<h4>Burger (Press #2)</h4>
 	<div id='Burger' class='image'>
 		<img id="burger" src="https://media-cdn.tripadvisor.com/media/photo-s/17/ba/a6/31/burger.jpg">
 	</div>
-	<h4>Wings</h4>
+	<h4>Wings (Press #3)</h4>
 	<div id='Wings' class='image'>
 		<img id="wings" src="https://www.thespruceeats.com/thmb/sEpFP5i3XgXEdHM_LS_JSV5BcXI=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/instant-pot-buffalo-wings-4773375-hero-e82d636c887943a0aa87b92106aa4789.jpg">
 	</div>
@@ -27,8 +27,10 @@
 						marginLeft: "300px"
 					})
 					.animate({
-						width: "200px",
-						height: "279.16667"
+						width: "250px"
+                })
+                    .animate({
+						height: "325" //279.16667
 					})
 			});
 			$("#Salad").mouseleave(function() { //mouse leaves anywhere on div
@@ -94,21 +96,21 @@
 			$(document).keydown(function(keyPressed) {
 				if (keyPressed.keyCode == 49) {
 					$("#salad").animate({
-						marginLeft: "550px"
+                        opacity: .5
 					}, 200);
 				}
 			});
 			$(document).keydown(function(keyPressed) {
 				if (keyPressed.keyCode == 50) {
 					$("#burger").animate({
-						marginLeft: "550px"
+						opacity: .5
 					}, 200);
 				}
 			});
 			$(document).keydown(function(keyPressed) {
 				if (keyPressed.keyCode == 51) {
 					$("#wings").animate({
-						marginLeft: "550px"
+						opacity: .5
 					}, 200);
 				}
 			});
